@@ -8,7 +8,6 @@ const app = express();
 require('dotenv').config();
 
 const DATABASE_URL = process.env.MONGODB_CONNECTION_URL;
-console.log(DATABASE_URL)
 
 app.use(express.json());
 
